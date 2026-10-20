@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MENTOR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trainers">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Option 1</a></li>
+              <li><a class="dropdown-item" href="#">Option 2</a></li>
+              <li><a class="dropdown-item" href="#">Option 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a class="btn btn-getstarted" href="#">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero"
+    style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('https://media.istockphoto.com/id/1889533246/photo/smiling-young-female-student-standing-with-a-laptop-in-a-college-cafeteria.jpg?b=1&s=612x612&w=0&k=20&c=nTD5gTPeCy8DINS4pH_o2haocpnxKsbGQ1pDhUPIkRk=') center / cover no-repeat;">
+    <div class="container">
+      <h1>Learning Today,<br>Leading Tomorrow</h1>
+      <p>We are team of talented designers making websites with Bootstrap</p>
+      <a href="#" class="btn btn-outline-hero">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <img src="https://images.pexels.com/photos/36650154/pexels-photo-36650154.jpeg" alt="Students learning"
+            class="img-fluid rounded">
+        </div>
+        <div class="col-lg-6">
+          <h2>About Us</h2>
+          <p>The mentoring program helps students learn new skills and connects learners with experienced people who
+            guide them.</p>
+          <ul>
+            <li>Learn from experienced trainers</li>
+            <li>Practice with real projects</li>
+            <li>Get support until you finish</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="courses py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Courses</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/14553720/pexels-photo-14553720.jpeg" class="card-img-top"
+              alt="Web Design">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Learn HTML, CSS and Bootstrap to build modern websites.</p>
+              <a href="#" class="btn btn-getstarted">Enroll</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/29459444/pexels-photo-29459444.jpeg" class="card-img-top"
+              alt="Web Development">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Add JavaScript and PHP to make your sites interactive.</p>
+              <a href="#" class="btn btn-getstarted">Enroll</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/11216260/pexels-photo-11216260.jpeg" class="card-img-top"
+              alt="Mobile Apps">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Apps</h5>
+              <p class="card-text">Build simple Android apps from scratch.</p>
+              <a href="#" class="btn btn-getstarted">Enroll</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainers -->
+  <section id="trainers" class="trainers py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Trainers</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="https://images.pexels.com/photos/12662811/pexels-photo-12662811.jpeg" class="card-img-top"
+              alt="Trainer 1">
+            <div class="card-body">
+              <h5 class="card-title">Jane Wanjiku</h5>
+              <p class="text-muted mb-2">Web Design Trainer</p>
+              <p class="card-text">Helps students build clean, responsive websites.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="https://images.pexels.com/photos/36706460/pexels-photo-36706460.jpeg" class="card-img-top"
+              alt="Trainer 2">
+            <div class="card-body">
+              <h5 class="card-title">John Otieno</h5>
+              <p class="text-muted mb-2">Web Development Trainer</p>
+              <p class="card-text">Teaches JavaScript and PHP with real projects.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <img src="https://images.pexels.com/photos/33176067/pexels-photo-33176067.jpeg" class="card-img-top"
+              alt="Trainer 3">
+            <div class="card-body">
+              <h5 class="card-title">Mary Achieng</h5>
+              <p class="text-muted mb-2">Mobile Apps Trainer</p>
+              <p class="card-text">Guides learners through building Android apps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="events py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Events</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/7648514/pexels-photo-7648514.jpeg" class="card-img-top"
+              alt="Open day">
+            <div class="card-body">
+              <p class="event-date mb-2">15 Nov 2026</p>
+              <h5 class="card-title">Open Day</h5>
+              <p class="card-text">Meet the trainers and see how our classes work.</p>
+              <a href="#" class="btn btn-getstarted">Register</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/12899191/pexels-photo-12899191.jpeg" class="card-img-top"
+              alt="Coding workshop">
+            <div class="card-body">
+              <p class="event-date mb-2">28 Nov 2026</p>
+              <h5 class="card-title">Coding Workshop</h5>
+              <p class="card-text">A hands-on session building a website from scratch.</p>
+              <a href="#" class="btn btn-getstarted">Register</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="https://images.pexels.com/photos/29229903/pexels-photo-29229903.jpeg" class="card-img-top"
+              alt="Graduation">
+            <div class="card-body">
+              <p class="event-date mb-2">10 Dec 2026</p>
+              <h5 class="card-title">Graduation Day</h5>
+              <p class="card-text">Celebrate with our students who finished their courses.</p>
+              <a href="#" class="btn btn-getstarted">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="pricing py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Pricing</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Basic</h5>
+              <h3 class="my-3">KSh 2,000</h3>
+              <ul class="list-unstyled mb-4">
+                <li>1 course</li>
+                <li>Weekly sessions</li>
+                <li>Email support</li>
+              </ul>
+              <a href="#" class="btn btn-getstarted">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center featured">
+            <div class="card-body">
+              <h5 class="card-title">Standard</h5>
+              <h3 class="my-3">KSh 4,000</h3>
+              <ul class="list-unstyled mb-4">
+                <li>3 courses</li>
+                <li>Twice-weekly sessions</li>
+                <li>Mentor support</li>
+              </ul>
+              <a href="#" class="btn btn-getstarted">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Premium</h5>
+              <h3 class="my-3">KSh 7,000</h3>
+              <ul class="list-unstyled mb-4">
+                <li>All courses</li>
+                <li>Daily sessions</li>
+                <li>One-on-one mentoring</li>
+              </ul>
+              <a href="#" class="btn btn-getstarted">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact" class="contact py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact</h2>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <h5>Get in touch</h5>
+          <p class="mb-1">Kirinyaga, Kenya</p>
+          <p class="mb-1">info@mentor.com</p>
+          <p>+254 700 000 000</p>
+        </div>
+
+        <div class="col-lg-7">
+          <form>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your email" required>
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-getstarted">Send message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Mentor. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

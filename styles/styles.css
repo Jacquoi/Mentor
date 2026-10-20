@@ -1,0 +1,166 @@
+:root {
+  --green: #5fcf80;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #eef7f1;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: #fff;
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: var(--green);
+}
+
+.navbar-brand:hover {
+  color: var(--green);
+}
+
+.navbar .nav-link {
+  color: #222;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 14px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--green);
+}
+
+.btn-getstarted {
+  background: var(--green);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  font-size: 14px;
+  border: none;
+}
+
+.btn-getstarted:hover {
+  background: #4bbd6d;
+  color: #fff;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: linear-gradient(135deg, #3a2a1a, #7a5230);
+
+  
+}
+
+.hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, .85);
+  margin-bottom: 32px;
+}
+
+.btn-outline-hero {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 28px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.btn-outline-hero:hover {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.btn-getstarted {
+  background: var(--green);
+  color: #fff;
+  border-radius: 50px;   
+  padding: 8px 25px;
+  font-size: 14px;
+  border: none;
+}
+.about h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #222;
+}
+
+.about li {
+  margin-bottom: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* ---------- Courses ---------- */
+.courses h2,
+.trainers h2,
+.events h2,
+.pricing h2,
+.contact {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.courses .card,
+.trainers .card,
+.events .card,
+.pricing .card {
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
+}
+
+.courses .card-img-top, 
+.trainers .card-img-top,
+.events .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-date {
+  color: var(--green);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pricing h3 {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.pricing .featured {
+  border: 2px solid var(--green);
+}
+
+.contact .form-control:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 .2rem rgba(95, 207, 128, .25);
+}
+
+.footer {
+  background: #1f2d24;
+  color: #fff;
+}
+/* Sections */
+section {
+  scroll-margin-top: 80px;
+}
